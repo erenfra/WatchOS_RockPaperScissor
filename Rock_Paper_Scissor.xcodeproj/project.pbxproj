@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		245D183E268EA6B300ADB13A /* Rock_Paper_Scissor WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 245D183D268EA6B300ADB13A /* Rock_Paper_Scissor WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		245D1843268EA6B600ADB13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245D1842268EA6B600ADB13A /* Assets.xcassets */; };
+		245D184A268EA6B600ADB13A /* Rock_Paper_Scissor WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 245D1849268EA6B600ADB13A /* Rock_Paper_Scissor WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		245D184F268EA6B600ADB13A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245D184E268EA6B600ADB13A /* ContentView.swift */; };
+		245D1851268EA6B600ADB13A /* Rock_Paper_ScissorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245D1850268EA6B600ADB13A /* Rock_Paper_ScissorApp.swift */; };
+		245D1853268EA6B600ADB13A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245D1852268EA6B600ADB13A /* ComplicationController.swift */; };
+		245D1855268EA6B600ADB13A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245D1854268EA6B600ADB13A /* Assets.xcassets */; };
+		245D1858268EA6B700ADB13A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245D1857268EA6B700ADB13A /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		245D183F268EA6B300ADB13A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 245D1833268EA6B300ADB13A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 245D183C268EA6B300ADB13A;
+			remoteInfo = "Rock_Paper_Scissor WatchKit App";
+		};
+		245D184B268EA6B600ADB13A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 245D1833268EA6B300ADB13A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 245D1848268EA6B600ADB13A;
+			remoteInfo = "Rock_Paper_Scissor WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		245D185F268EA6B700ADB13A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				245D184A268EA6B600ADB13A /* Rock_Paper_Scissor WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245D1863268EA6B700ADB13A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				245D183E268EA6B300ADB13A /* Rock_Paper_Scissor WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		245D1839268EA6B300ADB13A /* Rock_Paper_Scissor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rock_Paper_Scissor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		245D183D268EA6B300ADB13A /* Rock_Paper_Scissor WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock_Paper_Scissor WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		245D1842268EA6B600ADB13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		245D1844268EA6B600ADB13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245D1849268EA6B600ADB13A /* Rock_Paper_Scissor WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rock_Paper_Scissor WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		245D184E268EA6B600ADB13A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		245D1850268EA6B600ADB13A /* Rock_Paper_ScissorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_Paper_ScissorApp.swift; sourceTree = "<group>"; };
+		245D1852268EA6B600ADB13A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		245D1854268EA6B600ADB13A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		245D1857268EA6B700ADB13A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		245D1859268EA6B700ADB13A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		245D1846268EA6B600ADB13A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		245D1832268EA6B300ADB13A = {
+			isa = PBXGroup;
+			children = (
+				245D1841268EA6B300ADB13A /* Rock_Paper_Scissor WatchKit App */,
+				245D184D268EA6B600ADB13A /* Rock_Paper_Scissor WatchKit Extension */,
+				245D183A268EA6B300ADB13A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		245D183A268EA6B300ADB13A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				245D1839268EA6B300ADB13A /* Rock_Paper_Scissor.app */,
+				245D183D268EA6B300ADB13A /* Rock_Paper_Scissor WatchKit App.app */,
+				245D1849268EA6B600ADB13A /* Rock_Paper_Scissor WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		245D1841268EA6B300ADB13A /* Rock_Paper_Scissor WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				245D1842268EA6B600ADB13A /* Assets.xcassets */,
+				245D1844268EA6B600ADB13A /* Info.plist */,
+			);
+			path = "Rock_Paper_Scissor WatchKit App";
+			sourceTree = "<group>";
+		};
+		245D184D268EA6B600ADB13A /* Rock_Paper_Scissor WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				245D184E268EA6B600ADB13A /* ContentView.swift */,
+				245D1850268EA6B600ADB13A /* Rock_Paper_ScissorApp.swift */,
+				245D1852268EA6B600ADB13A /* ComplicationController.swift */,
+				245D1854268EA6B600ADB13A /* Assets.xcassets */,
+				245D1859268EA6B700ADB13A /* Info.plist */,
+				245D1856268EA6B700ADB13A /* Preview Content */,
+			);
+			path = "Rock_Paper_Scissor WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		245D1856268EA6B700ADB13A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				245D1857268EA6B700ADB13A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		245D1838268EA6B300ADB13A /* Rock_Paper_Scissor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245D1864268EA6B700ADB13A /* Build configuration list for PBXNativeTarget "Rock_Paper_Scissor" */;
+			buildPhases = (
+				245D1837268EA6B300ADB13A /* Resources */,
+				245D1863268EA6B700ADB13A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				245D1840268EA6B300ADB13A /* PBXTargetDependency */,
+			);
+			name = Rock_Paper_Scissor;
+			productName = Rock_Paper_Scissor;
+			productReference = 245D1839268EA6B300ADB13A /* Rock_Paper_Scissor.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		245D183C268EA6B300ADB13A /* Rock_Paper_Scissor WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245D1860268EA6B700ADB13A /* Build configuration list for PBXNativeTarget "Rock_Paper_Scissor WatchKit App" */;
+			buildPhases = (
+				245D183B268EA6B300ADB13A /* Resources */,
+				245D185F268EA6B700ADB13A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				245D184C268EA6B600ADB13A /* PBXTargetDependency */,
+			);
+			name = "Rock_Paper_Scissor WatchKit App";
+			productName = "Rock_Paper_Scissor WatchKit App";
+			productReference = 245D183D268EA6B300ADB13A /* Rock_Paper_Scissor WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		245D1848268EA6B600ADB13A /* Rock_Paper_Scissor WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245D185C268EA6B700ADB13A /* Build configuration list for PBXNativeTarget "Rock_Paper_Scissor WatchKit Extension" */;
+			buildPhases = (
+				245D1845268EA6B600ADB13A /* Sources */,
+				245D1846268EA6B600ADB13A /* Frameworks */,
+				245D1847268EA6B600ADB13A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rock_Paper_Scissor WatchKit Extension";
+			productName = "Rock_Paper_Scissor WatchKit Extension";
+			productReference = 245D1849268EA6B600ADB13A /* Rock_Paper_Scissor WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		245D1833268EA6B300ADB13A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					245D1838268EA6B300ADB13A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					245D183C268EA6B300ADB13A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					245D1848268EA6B600ADB13A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 245D1836268EA6B300ADB13A /* Build configuration list for PBXProject "Rock_Paper_Scissor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 245D1832268EA6B300ADB13A;
+			productRefGroup = 245D183A268EA6B300ADB13A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				245D1838268EA6B300ADB13A /* Rock_Paper_Scissor */,
+				245D183C268EA6B300ADB13A /* Rock_Paper_Scissor WatchKit App */,
+				245D1848268EA6B600ADB13A /* Rock_Paper_Scissor WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		245D1837268EA6B300ADB13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245D183B268EA6B300ADB13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245D1843268EA6B600ADB13A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245D1847268EA6B600ADB13A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245D1858268EA6B700ADB13A /* Preview Assets.xcassets in Resources */,
+				245D1855268EA6B600ADB13A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		245D1845268EA6B600ADB13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245D1851268EA6B600ADB13A /* Rock_Paper_ScissorApp.swift in Sources */,
+				245D184F268EA6B600ADB13A /* ContentView.swift in Sources */,
+				245D1853268EA6B600ADB13A /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		245D1840268EA6B300ADB13A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 245D183C268EA6B300ADB13A /* Rock_Paper_Scissor WatchKit App */;
+			targetProxy = 245D183F268EA6B300ADB13A /* PBXContainerItemProxy */;
+		};
+		245D184C268EA6B600ADB13A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 245D1848268EA6B600ADB13A /* Rock_Paper_Scissor WatchKit Extension */;
+			targetProxy = 245D184B268EA6B600ADB13A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		245D185A268EA6B700ADB13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		245D185B268EA6B700ADB13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		245D185D268EA6B700ADB13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rock_Paper_Scissor WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = L5MEY32333;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Rock_Paper_Scissor WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renatofraga.Rock-Paper-Scissor.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		245D185E268EA6B700ADB13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rock_Paper_Scissor WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = L5MEY32333;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Rock_Paper_Scissor WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renatofraga.Rock-Paper-Scissor.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		245D1861268EA6B700ADB13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5MEY32333;
+				IBSC_MODULE = Rock_Paper_Scissor_WatchKit_Extension;
+				INFOPLIST_FILE = "Rock_Paper_Scissor WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renatofraga.Rock-Paper-Scissor.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		245D1862268EA6B700ADB13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5MEY32333;
+				IBSC_MODULE = Rock_Paper_Scissor_WatchKit_Extension;
+				INFOPLIST_FILE = "Rock_Paper_Scissor WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renatofraga.Rock-Paper-Scissor.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		245D1865268EA6B700ADB13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5MEY32333;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renatofraga.Rock-Paper-Scissor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		245D1866268EA6B700ADB13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5MEY32333;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.renatofraga.Rock-Paper-Scissor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		245D1836268EA6B300ADB13A /* Build configuration list for PBXProject "Rock_Paper_Scissor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245D185A268EA6B700ADB13A /* Debug */,
+				245D185B268EA6B700ADB13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		245D185C268EA6B700ADB13A /* Build configuration list for PBXNativeTarget "Rock_Paper_Scissor WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245D185D268EA6B700ADB13A /* Debug */,
+				245D185E268EA6B700ADB13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		245D1860268EA6B700ADB13A /* Build configuration list for PBXNativeTarget "Rock_Paper_Scissor WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245D1861268EA6B700ADB13A /* Debug */,
+				245D1862268EA6B700ADB13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		245D1864268EA6B700ADB13A /* Build configuration list for PBXNativeTarget "Rock_Paper_Scissor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245D1865268EA6B700ADB13A /* Debug */,
+				245D1866268EA6B700ADB13A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 245D1833268EA6B300ADB13A /* Project object */;
+}
